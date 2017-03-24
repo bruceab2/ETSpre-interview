@@ -41,4 +41,8 @@ public class Card {
         }
         return false;
     }
+
+    public String toString() {
+        return CARD_NAMES[rank] + " of " + suit;
+    }
 }
